@@ -1,4 +1,4 @@
-const Skill = require("../model/skills");
+const Skill = require("../model/skill");
 const index = (req, res)=> {
     res.render("skills/index", {
         skills: Skill.getAll(),

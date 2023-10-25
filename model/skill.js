@@ -11,7 +11,8 @@ function getAll() {
 function getOne(id){
   id = parseInt(id);
   return skills.find(skill => skill.id === id);
-}
+} 
+
 function create(skill) {
   // Generate an id
   skill.id = Date.now() % 1000;

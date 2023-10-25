@@ -7,10 +7,11 @@ const index = (req, res) => {
 };
 
 function show(req, res) {
-  res.render('skills/show', {
+  res.render("skills/show", {
     skill: Skill.getOne(req.params.id),
   });
 }
+
 function newSkill(req, res) {
   res.render("skills/new");
 }

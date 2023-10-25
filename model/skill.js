@@ -16,7 +16,6 @@ function getOne(id){
 function create(skill) {
   // Generate an id
   skill.id = Date.now() % 1000;
-  // Give yourself some credit, consider the skill done
   skill.done = true;
   skills.push(skill);
 }

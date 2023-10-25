@@ -9,7 +9,7 @@ router.get("/", skillsCtrl.index);
 router.get("/new", skillsCtrl.new);
 
 //Get /skill/:id
-router.get("/:id", skillsCtrl.show); // ask Kristina 
+router.get("/:id", skillsCtrl.show); 
 
 //Create /skills 
 router.post("/", skillsCtrl.create);
